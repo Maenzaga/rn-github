@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, Button} from 'react-native';
-import {useGenericNavigation, ScreenNames} from 'navigationTypes';
+import { View, Button } from 'react-native';
+import { useGenericNavigation, ScreenNames } from 'navigationTypes';
 import styles from './styles';
 
 export const HomeScreen = () => {
@@ -11,7 +11,9 @@ export const HomeScreen = () => {
       <Button
         title="Repositories"
         onPress={() => {
-          navigation.navigate(ScreenNames.Repositories, {username: 'maenzaga'});
+          navigation.navigate(ScreenNames.Repositories, {
+            username: 'phanghos',
+          });
         }}
       />
     </View>

@@ -1,5 +1,5 @@
-import React, {PropsWithChildren} from 'react';
-import {View, Text, Image, ViewProps} from 'react-native';
+import React, { PropsWithChildren } from 'react';
+import { View, Text, Image, ViewProps } from 'react-native';
 import styles from './styles';
 
 type RepositoryItemProps = {
@@ -18,7 +18,7 @@ export const RepositoryItem = ({
   children,
 }: Props) => (
   <View style={[styles.container, style]}>
-    <Image source={{uri: avatar}} style={styles.avatar} />
+    <Image source={{ uri: avatar }} style={styles.avatar} />
     <View>
       <Text style={styles.owner}>{owner}</Text>
       <Text style={styles.name}>{name}</Text>

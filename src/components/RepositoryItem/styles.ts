@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
@@ -12,6 +12,6 @@ export default StyleSheet.create({
     marginRight: 16,
     borderRadius: 20,
   },
-  owner: {marginBottom: 4},
-  name: {fontSize: 16, fontWeight: 'bold'},
+  owner: { marginBottom: 4 },
+  name: { fontSize: 16, fontWeight: 'bold' },
 });

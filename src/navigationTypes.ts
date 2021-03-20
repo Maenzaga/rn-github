@@ -1,5 +1,5 @@
-import {useNavigation, useRoute, RouteProp} from '@react-navigation/native';
-import {StackNavigationProp} from '@react-navigation/stack';
+import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
 
 export enum ScreenNames {
   Home = 'Home',
@@ -8,7 +8,7 @@ export enum ScreenNames {
 
 export type ScreenNavigationTypes = {
   [ScreenNames.Home]: undefined;
-  [ScreenNames.Repositories]: {username: string};
+  [ScreenNames.Repositories]: { username: string };
 };
 
 type NavigationType = StackNavigationProp<ScreenNavigationTypes>;

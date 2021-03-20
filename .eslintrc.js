@@ -11,5 +11,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 0,
     camelcase: 0, // TODO: Enable later
     'react-hooks/exhaustive-deps': 1,
+    'prettier/prettier': 0,
   },
 };

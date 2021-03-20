@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "129513730222",
+    "project_id": "react-native-github-ea2b0",
+    "storage_bucket": "react-native-github-ea2b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129513730222:android:296f0c3401fced50a97d3f",
+        "android_client_info": {
+          "package_name": "com.reactnativegithub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129513730222-h9u64nv7dg422l24r7slurnu74uncq94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtc7pc7pemVLbG0aqMcTesSS4VuEgV62U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129513730222-h9u64nv7dg422l24r7slurnu74uncq94.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "129513730222-26l7l3e823jevptt5kfkkt56druflt65.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.maenzaga.reactnativegithub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
