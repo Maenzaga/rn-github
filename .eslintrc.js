@@ -12,5 +12,6 @@ module.exports = {
     camelcase: 0, // TODO: Enable later
     'react-hooks/exhaustive-deps': 1,
     'prettier/prettier': 0,
+    'react/require-default-props': 0,
   },
 };
